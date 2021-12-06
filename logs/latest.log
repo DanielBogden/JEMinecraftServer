@@ -1,0 +1,258 @@
+[20:45:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:45:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:45:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:45:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:45:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:45:57] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:45:57] [ServerMain/INFO]: Reloading ResourceManager: Default
+[20:45:59] [Worker-Main-18/INFO]: Loaded 7 recipes
+[20:46:00] [Worker-Main-18/INFO]: Loaded 1141 advancements
+[20:46:02] [Server thread/INFO]: Starting minecraft server version 1.18
+[20:46:02] [Server thread/INFO]: Loading properties
+[20:46:02] [Server thread/INFO]: Default game type: SURVIVAL
+[20:46:02] [Server thread/INFO]: Generating keypair
+[20:46:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:46:03] [Server thread/INFO]: Using epoll channel type
+[20:46:03] [Server thread/INFO]: Preparing level "Laura Craft Server"
+[20:46:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:46:13] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[20:46:13] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[20:46:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:46:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:46:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:46:14] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[20:46:15] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[20:46:15] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:46:15] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:46:16] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:46:16] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:46:17] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:46:17] [Worker-Main-20/INFO]: Preparing spawn area: 1%
+[20:46:18] [Worker-Main-19/INFO]: Preparing spawn area: 1%
+[20:46:18] [Worker-Main-15/INFO]: Preparing spawn area: 2%
+[20:46:19] [Worker-Main-16/INFO]: Preparing spawn area: 3%
+[20:46:19] [Worker-Main-22/INFO]: Preparing spawn area: 3%
+[20:46:20] [Worker-Main-22/INFO]: Preparing spawn area: 3%
+[20:46:20] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[20:46:21] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[20:46:21] [Worker-Main-15/INFO]: Preparing spawn area: 6%
+[20:46:22] [Worker-Main-16/INFO]: Preparing spawn area: 6%
+[20:46:22] [Worker-Main-12/INFO]: Preparing spawn area: 7%
+[20:46:23] [Worker-Main-20/INFO]: Preparing spawn area: 7%
+[20:46:23] [Worker-Main-19/INFO]: Preparing spawn area: 8%
+[20:46:24] [Worker-Main-16/INFO]: Preparing spawn area: 9%
+[20:46:24] [Worker-Main-22/INFO]: Preparing spawn area: 10%
+[20:46:25] [User Authenticator #1/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[20:46:25] [Worker-Main-12/INFO]: Preparing spawn area: 10%
+[20:46:25] [Worker-Main-19/INFO]: Preparing spawn area: 12%
+[20:46:26] [Worker-Main-19/INFO]: Preparing spawn area: 13%
+[20:46:26] [Worker-Main-18/INFO]: Preparing spawn area: 13%
+[20:46:27] [Worker-Main-16/INFO]: Preparing spawn area: 14%
+[20:46:27] [Worker-Main-12/INFO]: Preparing spawn area: 15%
+[20:46:28] [Worker-Main-16/INFO]: Preparing spawn area: 15%
+[20:46:28] [Worker-Main-12/INFO]: Preparing spawn area: 16%
+[20:46:30] [Worker-Main-20/INFO]: Preparing spawn area: 16%
+[20:46:30] [Worker-Main-12/INFO]: Preparing spawn area: 16%
+[20:46:30] [Worker-Main-21/INFO]: Preparing spawn area: 17%
+[20:46:30] [Worker-Main-20/INFO]: Preparing spawn area: 22%
+[20:46:31] [Worker-Main-16/INFO]: Preparing spawn area: 24%
+[20:46:31] [Worker-Main-14/INFO]: Preparing spawn area: 26%
+[20:46:32] [Worker-Main-19/INFO]: Preparing spawn area: 30%
+[20:46:32] [Worker-Main-14/INFO]: Preparing spawn area: 32%
+[20:46:33] [Worker-Main-17/INFO]: Preparing spawn area: 34%
+[20:46:33] [Worker-Main-12/INFO]: Preparing spawn area: 38%
+[20:46:34] [Worker-Main-21/INFO]: Preparing spawn area: 42%
+[20:46:34] [Worker-Main-14/INFO]: Preparing spawn area: 44%
+[20:46:35] [Worker-Main-19/INFO]: Preparing spawn area: 47%
+[20:46:35] [Worker-Main-22/INFO]: Preparing spawn area: 52%
+[20:46:36] [Worker-Main-19/INFO]: Preparing spawn area: 55%
+[20:46:36] [Worker-Main-22/INFO]: Preparing spawn area: 58%
+[20:46:37] [Worker-Main-12/INFO]: Preparing spawn area: 62%
+[20:46:37] [Worker-Main-19/INFO]: Preparing spawn area: 65%
+[20:46:38] [Worker-Main-18/INFO]: Preparing spawn area: 69%
+[20:46:38] [Worker-Main-21/INFO]: Preparing spawn area: 73%
+[20:46:39] [Worker-Main-16/INFO]: Preparing spawn area: 77%
+[20:46:39] [Worker-Main-19/INFO]: Preparing spawn area: 81%
+[20:46:40] [Worker-Main-22/INFO]: Preparing spawn area: 84%
+[20:46:40] [Worker-Main-13/INFO]: Preparing spawn area: 88%
+[20:46:41] [Worker-Main-14/INFO]: Preparing spawn area: 90%
+[20:46:41] [Worker-Main-14/INFO]: Preparing spawn area: 96%
+[20:46:42] [Server thread/INFO]: Time elapsed: 30392 ms
+[20:46:42] [Server thread/INFO]: Done (38.586s)! For help, type "help"
+[20:46:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ce3c126[id=01486bb2-7646-4a2c-a766-647ae9ebbf76,name=FlamencoCoder,properties={textures=[com.mojang.authlib.properties.Property@24f96844]},legacy=false] (/69.92.3.83:52956) lost connection: Disconnected
+[20:46:45] [User Authenticator #2/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[20:46:45] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:52960] logged in with entity id 253 at (-281.5, 69.0, -63.5)
+[20:46:45] [Server thread/INFO]: FlamencoCoder joined the game
+[20:46:53] [User Authenticator #3/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[20:46:53] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:61132] logged in with entity id 391 at (-291.5, 70.0, -68.5)
+[20:46:53] [Server thread/INFO]: NotCarpeDM joined the game
+[20:54:26] [User Authenticator #4/INFO]: UUID of player RyouriNinja is 0be2da07-2bf9-422e-b9f0-e174060dda1e
+[20:54:26] [Server thread/INFO]: RyouriNinja[/67.61.49.66:62581] logged in with entity id 2721 at (-295.5, 70.0, -59.5)
+[20:54:26] [Server thread/INFO]: RyouriNinja joined the game
+[20:57:55] [Server thread/INFO]: FlamencoCoder has made the advancement [Sweet Dreams]
+[20:58:05] [Server thread/INFO]: NotCarpeDM has made the advancement [Stone Age]
+[20:58:35] [Server thread/INFO]: RyouriNinja has made the advancement [Sweet Dreams]
+[20:58:50] [Server thread/INFO]: NotCarpeDM has made the advancement [Getting an Upgrade]
+[20:59:15] [Server thread/INFO]: NotCarpeDM has made the advancement [Sweet Dreams]
+[20:59:37] [Server thread/INFO]: RyouriNinja has made the advancement [Monster Hunter]
+[21:00:21] [Server thread/INFO]: RyouriNinja has made the advancement [Stone Age]
+[21:02:16] [Server thread/INFO]: RyouriNinja has made the advancement [Getting an Upgrade]
+[21:02:51] [Server thread/INFO]: FlamencoCoder has made the advancement [Stone Age]
+[21:04:02] [Server thread/INFO]: Gave 1 [Map] to RyouriNinja
+[21:04:11] [Server thread/INFO]: Gave 1 [Map] to FlamencoCoder
+[21:04:16] [Server thread/INFO]: Gave 1 [Map] to NotCarpeDM
+[21:05:03] [Server thread/INFO]: Villager bne['Villager'/1826, l='ServerLevel[Laura Craft Server]', x=-529.12, y=60.00, z=-341.43] died, message: 'Villager burned to death'
+[21:05:19] [Server thread/INFO]: RyouriNinja lost connection: Disconnected
+[21:05:19] [Server thread/INFO]: RyouriNinja left the game
+[21:05:40] [Server thread/INFO]: FlamencoCoder has made the advancement [Getting an Upgrade]
+[21:05:41] [User Authenticator #5/INFO]: UUID of player RyouriNinja is 0be2da07-2bf9-422e-b9f0-e174060dda1e
+[21:05:41] [Server thread/INFO]: RyouriNinja[/67.61.49.66:62638] logged in with entity id 5289 at (-525.8830532502914, 66.0, -252.64644103484866)
+[21:05:41] [Server thread/INFO]: RyouriNinja joined the game
+[21:06:26] [Server thread/WARN]: RyouriNinja moved too quickly! -10.07953445312421,0.16610926093821377,0.40716007485644923
+[21:08:30] [Server thread/INFO]: Gave 1 [Compass] to RyouriNinja
+[21:08:42] [Server thread/INFO]: Gave 1 [Compass] to FlamencoCoder
+[21:08:46] [Server thread/INFO]: Gave 1 [Compass] to NotCarpeDM
+[21:09:13] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[21:09:13] [Server thread/INFO]: NotCarpeDM left the game
+[21:09:16] [User Authenticator #6/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[21:09:16] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:60370] logged in with entity id 5916 at (-556.7676657469368, 65.9375, -284.5236764598256)
+[21:09:16] [Server thread/INFO]: NotCarpeDM joined the game
+[21:09:42] [Server thread/INFO]: Gave 8 [Paper] to RyouriNinja
+[21:09:46] [Server thread/INFO]: Gave 8 [Paper] to FlamencoCoder
+[21:09:49] [Server thread/INFO]: Gave 8 [Paper] to NotCarpeDM
+[21:10:14] [Server thread/INFO]: <NotCarpeDM> Sleepy time!
+[21:11:06] [Server thread/INFO]: NotCarpeDM has made the advancement [Monster Hunter]
+[21:13:27] [Server thread/INFO]: Gave 8 [Paper] to RyouriNinja
+[21:13:28] [Server thread/INFO]: Gave 8 [Paper] to RyouriNinja
+[21:13:30] [Server thread/INFO]: Gave 8 [Paper] to RyouriNinja
+[21:13:37] [Server thread/INFO]: Gave 24 [Paper] to FlamencoCoder
+[21:13:40] [Server thread/INFO]: Gave 24 [Paper] to NotCarpeDM
+[21:15:21] [Server thread/INFO]: RyouriNinja lost connection: Disconnected
+[21:15:21] [Server thread/INFO]: RyouriNinja left the game
+[21:15:26] [User Authenticator #7/INFO]: UUID of player RyouriNinja is 0be2da07-2bf9-422e-b9f0-e174060dda1e
+[21:15:26] [Server thread/INFO]: RyouriNinja[/67.61.49.66:62672] logged in with entity id 7154 at (-531.8656274715155, 60.0, -247.86679054640464)
+[21:15:26] [Server thread/INFO]: RyouriNinja joined the game
+[21:16:41] [Server thread/INFO]: RyouriNinja lost connection: Disconnected
+[21:16:41] [Server thread/INFO]: RyouriNinja left the game
+[21:16:41] [Server thread/WARN]: handleDisconnection() called twice
+[21:16:46] [User Authenticator #8/INFO]: UUID of player RyouriNinja is 0be2da07-2bf9-422e-b9f0-e174060dda1e
+[21:16:46] [Server thread/INFO]: RyouriNinja[/67.61.49.66:62680] logged in with entity id 7404 at (-549.3000000119209, 56.0, -239.50858546876552)
+[21:16:46] [Server thread/INFO]: RyouriNinja joined the game
+[21:16:58] [Server thread/INFO]: RyouriNinja lost connection: Disconnected
+[21:16:58] [Server thread/INFO]: RyouriNinja left the game
+[21:17:01] [User Authenticator #9/INFO]: UUID of player RyouriNinja is 0be2da07-2bf9-422e-b9f0-e174060dda1e
+[21:17:01] [Server thread/INFO]: RyouriNinja[/67.61.49.66:62683] logged in with entity id 7459 at (-549.3000000119209, 56.0, -239.50858546876552)
+[21:17:01] [Server thread/INFO]: RyouriNinja joined the game
+[21:17:20] [Server thread/INFO]: RyouriNinja lost connection: Disconnected
+[21:17:20] [Server thread/INFO]: RyouriNinja left the game
+[21:17:21] [User Authenticator #10/INFO]: UUID of player RyouriNinja is 0be2da07-2bf9-422e-b9f0-e174060dda1e
+[21:17:21] [Server thread/INFO]: RyouriNinja[/67.61.49.66:62686] logged in with entity id 7513 at (-549.3000000119209, 56.0, -239.50858546876552)
+[21:17:21] [Server thread/INFO]: RyouriNinja joined the game
+[21:22:33] [Server thread/INFO]: RyouriNinja hit the ground too hard
+[21:22:34] [Server thread/INFO]: Skipping update from removed player 'adj['RyouriNinja'/7513, l='ServerLevel[Laura Craft Server]', x=-520.30, y=66.00, z=-246.52, removed=KILLED]'
+[21:23:22] [Server thread/INFO]: RyouriNinja lost connection: Timed out
+[21:23:22] [Server thread/INFO]: RyouriNinja left the game
+[21:23:54] [Server thread/INFO]: FlamencoCoder has made the advancement [Ice Bucket Challenge]
+[21:32:18] [Server thread/INFO]: <NotCarpeDM> Sleepy sleepy!
+[21:43:18] [Server thread/INFO]: <NotCarpeDM> Love you
+[21:56:42] [Server thread/INFO]: FlamencoCoder was shot by Skeleton
+[21:56:43] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-340.12, y=75.00, z=-189.72, removed=KILLED]'
+[21:56:43] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-340.24, y=75.00, z=-189.54, removed=KILLED]'
+[21:56:43] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-340.34, y=75.00, z=-189.35, removed=KILLED]'
+[21:56:43] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-340.45, y=75.00, z=-189.16, removed=KILLED]'
+[21:56:43] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-340.55, y=75.00, z=-188.98, removed=KILLED]'
+[21:56:43] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-340.66, y=75.00, z=-188.79, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-340.77, y=75.00, z=-188.60, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-340.88, y=75.00, z=-188.42, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.00, y=75.00, z=-188.24, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.11, y=75.00, z=-188.06, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.23, y=75.00, z=-187.87, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.35, y=75.00, z=-187.69, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.47, y=75.00, z=-187.52, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.59, y=75.00, z=-187.34, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.71, y=75.00, z=-187.16, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.83, y=75.00, z=-186.98, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-341.95, y=75.00, z=-186.80, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.07, y=75.00, z=-186.62, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.19, y=75.00, z=-186.44, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.31, y=75.00, z=-186.26, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.43, y=75.00, z=-186.08, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.55, y=75.00, z=-185.90, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.67, y=75.00, z=-185.72, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.80, y=75.00, z=-185.54, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.92, y=75.00, z=-185.37, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.81, y=75.28, z=-185.18, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.74, y=75.47, z=-185.07, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.69, y=75.58, z=-184.98, removed=KILLED]'
+[21:56:44] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.64, y=75.60, z=-184.90, removed=KILLED]'
+[21:56:45] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.59, y=75.55, z=-184.82, removed=KILLED]'
+[21:56:45] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.55, y=75.43, z=-184.75, removed=KILLED]'
+[21:56:45] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.51, y=75.22, z=-184.68, removed=KILLED]'
+[21:56:45] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.48, y=75.00, z=-184.63, removed=KILLED]'
+[21:56:45] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.45, y=75.00, z=-184.57, removed=KILLED]'
+[21:56:45] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.43, y=75.00, z=-184.54, removed=KILLED]'
+[21:56:45] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/253, l='ServerLevel[Laura Craft Server]', x=-342.42, y=75.00, z=-184.52, removed=KILLED]'
+[21:58:38] [Server thread/INFO]: FlamencoCoder lost connection: Timed out
+[21:58:38] [Server thread/INFO]: FlamencoCoder left the game
+[22:04:53] [User Authenticator #11/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[22:04:53] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:53367] logged in with entity id 19158 at (-342.41689816170526, 75.0, -184.5151500028693)
+[22:04:53] [Server thread/INFO]: FlamencoCoder joined the game
+[22:12:14] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[22:12:14] [Server thread/INFO]: FlamencoCoder left the game
+[22:19:27] [User Authenticator #12/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[22:19:27] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:53416] logged in with entity id 22658 at (-344.914007565152, 72.0, -183.7719572694865)
+[22:19:27] [Server thread/INFO]: FlamencoCoder joined the game
+[22:19:32] [Server thread/INFO]: Villager bne['Nitwit'/1824, l='ServerLevel[Laura Craft Server]', x=-508.47, y=70.00, z=-345.23] died, message: 'Nitwit was slain by Zombie'
+[22:19:41] [Server thread/INFO]: Villager bne['Villager'/1825, l='ServerLevel[Laura Craft Server]', x=-509.15, y=70.00, z=-344.43] died, message: 'Villager was slain by Zombie'
+[22:19:51] [Server thread/INFO]: Villager bne['Cleric'/1944, l='ServerLevel[Laura Craft Server]', x=-508.35, y=70.00, z=-346.93] died, message: 'Cleric was slain by Zombie'
+[22:19:56] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[22:19:56] [Server thread/INFO]: FlamencoCoder left the game
+[22:24:20] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[22:24:20] [Server thread/INFO]: NotCarpeDM left the game
+[22:24:24] [User Authenticator #13/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[22:24:24] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:63606] logged in with entity id 23488 at (-554.8676609572053, 64.0, -342.1909001622699)
+[22:24:24] [Server thread/INFO]: NotCarpeDM joined the game
+[22:25:21] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[22:25:21] [Server thread/INFO]: NotCarpeDM left the game
+[22:44:26] [User Authenticator #14/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[22:44:26] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:65265] logged in with entity id 23837 at (-546.4304027083308, 65.0, -343.5016500571694)
+[22:44:26] [Server thread/INFO]: NotCarpeDM joined the game
+[22:48:34] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[22:48:34] [Server thread/INFO]: NotCarpeDM left the game
+[22:49:21] [User Authenticator #15/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[22:49:21] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:53537] logged in with entity id 24672 at (-347.85557202975076, 72.0, -185.5046102647333)
+[22:49:21] [Server thread/INFO]: FlamencoCoder joined the game
+[22:51:59] [User Authenticator #16/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[22:51:59] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:65438] logged in with entity id 25127 at (-542.6312733207627, 65.0, -342.1216138054775)
+[22:51:59] [Server thread/INFO]: NotCarpeDM joined the game
+[22:55:16] [Server thread/INFO]: NotCarpeDM has made the advancement [The Parrots and the Bats]
+[22:55:32] [Server thread/INFO]: <NotCarpeDM> Sleeping?
+[22:55:56] [Server thread/INFO]: <NotCarpeDM> Nighty night
+[22:59:13] [Server thread/INFO]: NotCarpeDM has made the advancement [A Seedy Place]
+[23:34:53] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[23:34:53] [Server thread/INFO]: FlamencoCoder left the game
+[23:35:16] [User Authenticator #17/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[23:35:16] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:53695] logged in with entity id 36957 at (-407.34587392984406, 64.0, -263.69999998807907)
+[23:35:16] [Server thread/INFO]: FlamencoCoder joined the game
+[23:46:00] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[23:46:00] [Server thread/INFO]: NotCarpeDM left the game
+[23:46:54] [Server thread/INFO]: FlamencoCoder was shot by Skeleton
+[23:47:27] [Server thread/INFO]: FlamencoCoder was slain by Zombie
+[23:48:05] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[23:48:05] [Server thread/INFO]: FlamencoCoder left the game
+[23:50:22] [User Authenticator #18/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[23:50:22] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:53685] logged in with entity id 40571 at (-442.9658242642048, 12.0, -240.47609637039614)
+[23:50:22] [Server thread/INFO]: NotCarpeDM joined the game
+[23:58:59] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[23:58:59] [Server thread/INFO]: NotCarpeDM left the game
+[23:59:07] [Server thread/INFO]: Stopping the server
+[23:59:07] [Server thread/INFO]: Stopping server
+[23:59:07] [Server thread/INFO]: Saving players
+[23:59:07] [Server thread/INFO]: Saving worlds
+[23:59:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
+[23:59:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
+[23:59:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
+[23:59:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
+[23:59:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:59:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:59:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
