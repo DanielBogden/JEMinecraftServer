@@ -1,129 +1,98 @@
-[20:21:36] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:21:37] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:21:37] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:21:37] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:21:37] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:21:37] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:21:37] [ServerMain/INFO]: Reloading ResourceManager: Default
-[20:21:38] [Worker-Main-16/INFO]: Loaded 7 recipes
-[20:21:39] [Worker-Main-16/INFO]: Loaded 1141 advancements
-[20:21:42] [Server thread/INFO]: Starting minecraft server version 1.18
-[20:21:42] [Server thread/INFO]: Loading properties
-[20:21:42] [Server thread/INFO]: Default game type: SURVIVAL
-[20:21:42] [Server thread/INFO]: Generating keypair
-[20:21:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:21:43] [Server thread/INFO]: Using epoll channel type
-[20:21:43] [Server thread/INFO]: Preparing level "Laura Craft Server"
-[20:21:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:21:46] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[20:21:46] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[20:21:46] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[20:21:46] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[20:21:46] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[20:21:46] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[20:21:47] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[20:21:47] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[20:21:48] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:21:48] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[20:21:49] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:21:49] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:21:50] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[20:21:50] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:21:51] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:21:51] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[20:21:52] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[20:21:52] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[20:21:53] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[20:21:53] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[20:21:54] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[20:21:54] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[20:22:00] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[20:22:01] [Worker-Main-19/INFO]: Preparing spawn area: 1%
-[20:22:01] [Worker-Main-12/INFO]: Preparing spawn area: 1%
-[20:22:02] [Worker-Main-21/INFO]: Preparing spawn area: 1%
-[20:22:02] [Worker-Main-21/INFO]: Preparing spawn area: 1%
-[20:22:03] [Worker-Main-21/INFO]: Preparing spawn area: 1%
-[20:22:03] [Worker-Main-13/INFO]: Preparing spawn area: 1%
-[20:22:04] [Worker-Main-15/INFO]: Preparing spawn area: 1%
-[20:22:04] [Worker-Main-19/INFO]: Preparing spawn area: 1%
-[20:22:05] [Worker-Main-16/INFO]: Preparing spawn area: 1%
-[20:22:05] [Worker-Main-12/INFO]: Preparing spawn area: 1%
-[20:22:06] [Worker-Main-21/INFO]: Preparing spawn area: 3%
-[20:22:06] [Worker-Main-12/INFO]: Preparing spawn area: 6%
-[20:22:07] [Worker-Main-12/INFO]: Preparing spawn area: 13%
-[20:22:07] [Worker-Main-17/INFO]: Preparing spawn area: 28%
-[20:22:08] [Worker-Main-17/INFO]: Preparing spawn area: 30%
-[20:22:08] [Worker-Main-19/INFO]: Preparing spawn area: 61%
-[20:22:09] [Worker-Main-18/INFO]: Preparing spawn area: 82%
-[20:22:09] [Worker-Main-15/INFO]: Preparing spawn area: 88%
-[20:22:10] [Worker-Main-21/INFO]: Preparing spawn area: 97%
-[20:22:10] [Server thread/INFO]: Time elapsed: 26352 ms
-[20:22:10] [Server thread/INFO]: Done (26.822s)! For help, type "help"
-[20:24:00] [User Authenticator #1/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
-[20:24:00] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:54726] logged in with entity id 70 at (-309.800192876537, 60.0, -171.61554587840018)
-[20:24:00] [Server thread/INFO]: FlamencoCoder joined the game
-[20:41:54] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
-[20:41:54] [Server thread/INFO]: FlamencoCoder left the game
-[20:44:47] [User Authenticator #2/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
-[20:44:47] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:55309] logged in with entity id 2937 at (-333.9206317607313, 70.0, -58.44596547320112)
-[20:44:47] [Server thread/INFO]: FlamencoCoder joined the game
-[20:47:32] [User Authenticator #3/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
-[20:47:32] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:51590] logged in with entity id 3322 at (-466.1090715878711, -17.0, -239.00915552414963)
-[20:47:32] [Server thread/INFO]: NotCarpeDM joined the game
-[20:50:18] [Server thread/INFO]: NotCarpeDM has made the advancement [Diamonds!]
-[20:56:15] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
-[20:56:15] [Server thread/INFO]: FlamencoCoder left the game
-[20:59:01] [User Authenticator #4/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
-[20:59:01] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:55705] logged in with entity id 6061 at (-346.6380090655017, 68.0, -97.83874054783001)
-[20:59:01] [Server thread/INFO]: FlamencoCoder joined the game
-[21:09:54] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
-[21:09:54] [Server thread/INFO]: FlamencoCoder left the game
-[21:10:51] [User Authenticator #5/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
-[21:10:51] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:56032] logged in with entity id 10177 at (-327.9683236500158, 70.0, -56.224082219132384)
-[21:10:51] [Server thread/INFO]: FlamencoCoder joined the game
-[21:13:07] [Server thread/INFO]: NotCarpeDM has made the advancement [Suit Up]
-[21:33:34] [Server thread/INFO]: NotCarpeDM has made the advancement [Not Today, Thank You]
-[21:46:28] [Server thread/INFO]: NotCarpeDM was blown up by Creeper
-[22:07:14] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
-[22:07:14] [Server thread/INFO]: FlamencoCoder left the game
-[22:07:26] [User Authenticator #6/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
-[22:07:26] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:57598] logged in with entity id 25950 at (-338.1616144299723, 69.5625, -49.972347774920536)
-[22:07:26] [Server thread/INFO]: FlamencoCoder joined the game
-[22:10:12] [Server thread/INFO]: FlamencoCoder lost connection: Timed out
-[22:10:12] [Server thread/INFO]: FlamencoCoder left the game
-[22:11:05] [User Authenticator #7/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
-[22:11:05] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:57724] logged in with entity id 26989 at (-340.5320282043218, 76.0, -54.143330352199115)
-[22:11:05] [Server thread/INFO]: FlamencoCoder joined the game
-[22:23:19] [Server thread/INFO]: NotCarpeDM has made the advancement [Best Friends Forever]
-[22:24:28] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
-[22:24:28] [Server thread/INFO]: NotCarpeDM left the game
-[22:24:31] [User Authenticator #8/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
-[22:24:31] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:56271] logged in with entity id 30715 at (-520.4896914876676, 69.8500000178814, -431.53771756254673)
-[22:24:31] [Server thread/INFO]: NotCarpeDM joined the game
-[22:26:45] [Server thread/INFO]: Gave 1 [Saddle] to NotCarpeDM
-[23:09:03] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
-[23:09:03] [Server thread/INFO]: NotCarpeDM left the game
-[23:09:48] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
-[23:09:48] [Server thread/INFO]: FlamencoCoder left the game
-[23:09:56] [Server thread/INFO]: Stopping the server
-[23:09:56] [Server thread/INFO]: Stopping server
-[23:09:56] [Server thread/INFO]: Saving players
-[23:09:56] [Server thread/INFO]: Saving worlds
-[23:09:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
-[23:09:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
-[23:09:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
-[23:09:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
-[23:09:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:09:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:09:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:04:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:04:32] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:04:32] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:04:32] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:04:32] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:04:32] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:04:32] [ServerMain/INFO]: Reloading ResourceManager: Default
+[20:04:33] [Worker-Main-15/INFO]: Loaded 7 recipes
+[20:04:34] [Worker-Main-15/INFO]: Loaded 1141 advancements
+[20:04:37] [Server thread/INFO]: Starting minecraft server version 1.18
+[20:04:37] [Server thread/INFO]: Loading properties
+[20:04:37] [Server thread/INFO]: Default game type: SURVIVAL
+[20:04:37] [Server thread/INFO]: Generating keypair
+[20:04:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:04:37] [Server thread/INFO]: Using epoll channel type
+[20:04:38] [Server thread/INFO]: Preparing level "Laura Craft Server"
+[20:04:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:04:40] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[20:04:40] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[20:04:40] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[20:04:40] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[20:04:40] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[20:04:41] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:04:41] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[20:04:41] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[20:04:42] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[20:04:43] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:04:43] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[20:04:43] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[20:04:44] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[20:04:44] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[20:04:45] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[20:04:45] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[20:04:46] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[20:04:46] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[20:04:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:04:47] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[20:04:48] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[20:04:48] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[20:04:49] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[20:04:49] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:04:50] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:04:51] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:04:51] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[20:04:51] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[20:04:52] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:04:52] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[20:04:53] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[20:04:53] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[20:04:54] [Worker-Main-22/INFO]: Preparing spawn area: 1%
+[20:04:54] [Worker-Main-19/INFO]: Preparing spawn area: 1%
+[20:04:55] [Worker-Main-20/INFO]: Preparing spawn area: 1%
+[20:04:56] [Worker-Main-19/INFO]: Preparing spawn area: 1%
+[20:04:56] [Worker-Main-15/INFO]: Preparing spawn area: 1%
+[20:04:56] [Worker-Main-14/INFO]: Preparing spawn area: 2%
+[20:04:57] [Worker-Main-13/INFO]: Preparing spawn area: 2%
+[20:04:57] [Worker-Main-13/INFO]: Preparing spawn area: 3%
+[20:04:58] [Worker-Main-19/INFO]: Preparing spawn area: 5%
+[20:04:59] [Worker-Main-13/INFO]: Preparing spawn area: 5%
+[20:04:59] [Worker-Main-14/INFO]: Preparing spawn area: 5%
+[20:04:59] [Worker-Main-13/INFO]: Preparing spawn area: 6%
+[20:05:00] [Worker-Main-22/INFO]: Preparing spawn area: 6%
+[20:05:03] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[20:05:03] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[20:05:03] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[20:05:03] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[20:05:03] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[20:05:03] [Worker-Main-14/INFO]: Preparing spawn area: 17%
+[20:05:03] [Worker-Main-16/INFO]: Preparing spawn area: 42%
+[20:05:04] [Worker-Main-12/INFO]: Preparing spawn area: 60%
+[20:05:04] [Worker-Main-16/INFO]: Preparing spawn area: 86%
+[20:05:05] [Worker-Main-21/INFO]: Preparing spawn area: 99%
+[20:05:05] [Server thread/INFO]: Time elapsed: 27006 ms
+[20:05:05] [Server thread/INFO]: Done (27.306s)! For help, type "help"
+[20:10:47] [User Authenticator #1/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[20:10:47] [Server thread/INFO]: FlamencoCoder[/69.92.3.83:57255] logged in with entity id 167 at (-326.0012913013715, 70.0, -60.045544106895825)
+[20:10:47] [Server thread/INFO]: FlamencoCoder joined the game
+[20:25:54] [User Authenticator #2/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[20:25:54] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:61613] logged in with entity id 2131 at (-466.5, -17.0, -243.5)
+[20:25:54] [Server thread/INFO]: NotCarpeDM joined the game
+[20:41:17] [Server thread/INFO]: <NotCarpeDM> It's night time
+[21:00:00] [Server thread/INFO]: FlamencoCoder has made the advancement [Acquire Hardware]
+[21:02:32] [Server thread/INFO]: FlamencoCoder has made the advancement [Fishy Business]
+[21:37:36] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[21:37:36] [Server thread/INFO]: FlamencoCoder left the game
+[22:01:56] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[22:01:56] [Server thread/INFO]: NotCarpeDM left the game
+[22:02:06] [Server thread/INFO]: Stopping the server
+[22:02:06] [Server thread/INFO]: Stopping server
+[22:02:06] [Server thread/INFO]: Saving players
+[22:02:06] [Server thread/INFO]: Saving worlds
+[22:02:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
+[22:02:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
+[22:02:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
+[22:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
+[22:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:02:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

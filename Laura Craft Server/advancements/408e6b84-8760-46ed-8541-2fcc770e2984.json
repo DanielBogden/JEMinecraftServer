@@ -346,6 +346,7 @@
       "cooked_porkchop": "2021-12-05 22:11:53 -0700",
       "cooked_mutton": "2021-12-05 21:02:29 -0700",
       "cooked_beef": "2021-12-05 21:19:35 -0700",
+      "baked_potato": "2021-12-11 21:28:15 -0700",
       "cooked_chicken": "2021-12-06 22:42:39 -0700",
       "carrot": "2021-12-05 23:01:00 -0700"
     },
@@ -685,6 +686,12 @@
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2021-12-05 22:01:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2021-12-11 21:47:28 -0700"
     },
     "done": true
   },
@@ -1919,6 +1926,12 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2021-12-05 21:18:20 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2021-12-11 21:25:48 -0700"
     },
     "done": true
   },
