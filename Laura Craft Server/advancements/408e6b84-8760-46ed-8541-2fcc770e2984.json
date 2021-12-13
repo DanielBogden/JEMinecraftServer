@@ -119,6 +119,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2021-12-13 12:17:12 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2021-12-06 21:06:04 -0700"
@@ -347,6 +353,7 @@
       "cooked_mutton": "2021-12-05 21:02:29 -0700",
       "cooked_beef": "2021-12-05 21:19:35 -0700",
       "baked_potato": "2021-12-11 21:28:15 -0700",
+      "potato": "2021-12-13 12:18:20 -0700",
       "cooked_chicken": "2021-12-06 22:42:39 -0700",
       "carrot": "2021-12-05 23:01:00 -0700"
     },
@@ -1358,6 +1365,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2021-12-13 12:13:01 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2021-12-05 21:01:55 -0700"
@@ -1505,6 +1518,12 @@
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2021-12-05 21:51:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2021-12-13 12:13:01 -0700"
     },
     "done": true
   },
@@ -1754,6 +1773,7 @@
       "minecraft:sparse_jungle": "2021-12-06 21:31:00 -0700",
       "minecraft:river": "2021-12-05 21:30:26 -0700",
       "minecraft:forest": "2021-12-05 21:40:24 -0700",
+      "minecraft:desert": "2021-12-13 12:16:59 -0700",
       "minecraft:jungle": "2021-12-06 21:09:16 -0700",
       "minecraft:windswept_savanna": "2021-12-06 21:31:51 -0700",
       "minecraft:savanna": "2021-12-05 20:54:03 -0700",
