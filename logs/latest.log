@@ -1,102 +1,97 @@
-[12:02:49] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:02:49] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:02:49] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:02:49] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:02:49] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:02:49] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:02:49] [ServerMain/INFO]: Reloading ResourceManager: Default
-[12:02:51] [Worker-Main-16/INFO]: Loaded 7 recipes
-[12:02:52] [Worker-Main-16/INFO]: Loaded 1141 advancements
-[12:02:55] [Server thread/INFO]: Starting minecraft server version 1.18
-[12:02:55] [Server thread/INFO]: Loading properties
-[12:02:55] [Server thread/INFO]: Default game type: SURVIVAL
-[12:02:55] [Server thread/INFO]: Generating keypair
-[12:02:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:02:56] [Server thread/INFO]: Using epoll channel type
-[12:02:56] [Server thread/INFO]: Preparing level "Laura Craft Server"
-[12:02:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:02:59] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:00] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:00] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[12:03:00] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[12:03:00] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:00] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[12:03:00] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[12:03:01] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[12:03:01] [Worker-Main-21/INFO]: Preparing spawn area: 0%
-[12:03:01] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[12:03:02] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[12:03:02] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:03:03] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[12:03:03] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:04] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:04] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:05] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:05] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[12:03:06] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[12:03:06] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[12:03:07] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:07] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[12:03:08] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[12:03:08] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:03:09] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:03:09] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[12:03:10] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[12:03:10] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:11] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:11] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[12:03:12] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:12] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[12:03:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:03:13] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[12:03:14] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[12:03:14] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[12:03:15] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[12:03:15] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[12:03:16] [Worker-Main-18/INFO]: Preparing spawn area: 0%
-[12:03:16] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[12:03:17] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[12:03:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:03:18] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[12:03:18] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[12:03:19] [Worker-Main-16/INFO]: Preparing spawn area: 0%
-[12:03:19] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[12:03:20] [Worker-Main-19/INFO]: Preparing spawn area: 0%
-[12:03:20] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[12:03:21] [Worker-Main-22/INFO]: Preparing spawn area: 0%
-[12:03:21] [Worker-Main-15/INFO]: Preparing spawn area: 1%
-[12:03:22] [Worker-Main-12/INFO]: Preparing spawn area: 1%
-[12:03:22] [Worker-Main-18/INFO]: Preparing spawn area: 1%
-[12:03:23] [Worker-Main-13/INFO]: Preparing spawn area: 2%
-[12:03:26] [Worker-Main-18/INFO]: Preparing spawn area: 2%
-[12:03:26] [Worker-Main-18/INFO]: Preparing spawn area: 2%
-[12:03:26] [Worker-Main-21/INFO]: Preparing spawn area: 2%
-[12:03:26] [Worker-Main-21/INFO]: Preparing spawn area: 2%
-[12:03:26] [Worker-Main-18/INFO]: Preparing spawn area: 2%
-[12:03:26] [Worker-Main-18/INFO]: Preparing spawn area: 2%
-[12:03:26] [Worker-Main-17/INFO]: Preparing spawn area: 8%
-[12:03:27] [Worker-Main-19/INFO]: Preparing spawn area: 26%
-[12:03:27] [Worker-Main-16/INFO]: Preparing spawn area: 42%
-[12:03:28] [Worker-Main-18/INFO]: Preparing spawn area: 67%
-[12:03:28] [Worker-Main-17/INFO]: Preparing spawn area: 87%
-[12:03:29] [Worker-Main-13/INFO]: Preparing spawn area: 99%
-[12:03:29] [Server thread/INFO]: Time elapsed: 32071 ms
-[12:03:29] [Server thread/INFO]: Done (33.092s)! For help, type "help"
-[12:04:01] [User Authenticator #1/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
-[12:04:02] [Server thread/INFO]: NotCarpeDM[/69.92.3.83:60380] logged in with entity id 55 at (-546.6391459332862, 65.0, -344.2498572151805)
-[12:04:02] [Server thread/INFO]: NotCarpeDM joined the game
-[12:35:00] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
-[12:35:00] [Server thread/INFO]: NotCarpeDM left the game
-[12:35:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[12:35:10] [Server thread/INFO]:  	/stop<--[HERE]
-[12:35:18] [Server thread/INFO]: Stopping the server
-[12:35:18] [Server thread/INFO]: Stopping server
-[12:35:18] [Server thread/INFO]: Saving players
-[12:35:18] [Server thread/INFO]: Saving worlds
-[12:35:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
-[12:35:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
-[12:35:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
-[12:35:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
-[12:35:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:35:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:35:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:39:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:39:38] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:39:38] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:39:38] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:39:38] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:39:38] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:39:38] [ServerMain/INFO]: Reloading ResourceManager: Default
+[19:39:39] [Worker-Main-16/INFO]: Loaded 7 recipes
+[19:39:40] [Worker-Main-16/INFO]: Loaded 1141 advancements
+[19:39:43] [Server thread/INFO]: Starting minecraft server version 1.18
+[19:39:43] [Server thread/INFO]: Loading properties
+[19:39:43] [Server thread/INFO]: Default game type: SURVIVAL
+[19:39:43] [Server thread/INFO]: Generating keypair
+[19:39:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:39:44] [Server thread/INFO]: Using epoll channel type
+[19:39:44] [Server thread/INFO]: Preparing level "Laura Craft Server"
+[19:39:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:39:46] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[19:39:46] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:39:46] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:39:46] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[19:39:46] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[19:39:47] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[19:39:47] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:39:48] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[19:39:48] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[19:39:49] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[19:39:49] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[19:39:50] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[19:39:50] [Worker-Main-21/INFO]: Preparing spawn area: 0%
+[19:39:51] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[19:39:51] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:39:52] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:39:52] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[19:39:53] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[19:39:53] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:39:54] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[19:39:54] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:39:55] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[19:39:55] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[19:39:56] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[19:39:56] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:39:57] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[19:39:57] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[19:39:58] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[19:39:58] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[19:39:59] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:39:59] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[19:40:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:40:00] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[19:40:01] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[19:40:01] [Worker-Main-20/INFO]: Preparing spawn area: 0%
+[19:40:02] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:40:02] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:40:03] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:40:03] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:40:04] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[19:40:04] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[19:40:05] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[19:40:05] [Worker-Main-16/INFO]: Preparing spawn area: 1%
+[19:40:06] [Worker-Main-21/INFO]: Preparing spawn area: 1%
+[19:40:06] [Worker-Main-16/INFO]: Preparing spawn area: 1%
+[19:40:07] [Worker-Main-19/INFO]: Preparing spawn area: 1%
+[19:40:07] [Worker-Main-15/INFO]: Preparing spawn area: 2%
+[19:40:08] [Worker-Main-17/INFO]: Preparing spawn area: 2%
+[19:40:08] [Worker-Main-13/INFO]: Preparing spawn area: 2%
+[19:40:09] [Worker-Main-20/INFO]: Preparing spawn area: 3%
+[19:40:09] [Worker-Main-18/INFO]: Preparing spawn area: 4%
+[19:40:10] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[19:40:12] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[19:40:12] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[19:40:12] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[19:40:12] [Worker-Main-22/INFO]: Preparing spawn area: 4%
+[19:40:12] [Worker-Main-14/INFO]: Preparing spawn area: 19%
+[19:40:13] [Worker-Main-12/INFO]: Preparing spawn area: 35%
+[19:40:13] [Worker-Main-20/INFO]: Preparing spawn area: 53%
+[19:40:14] [Worker-Main-19/INFO]: Preparing spawn area: 71%
+[19:40:14] [Worker-Main-13/INFO]: Preparing spawn area: 94%
+[19:40:15] [Worker-Main-16/INFO]: Preparing spawn area: 99%
+[19:40:15] [Server thread/INFO]: Time elapsed: 30721 ms
+[19:40:15] [Server thread/INFO]: Done (30.931s)! For help, type "help"
+[19:45:39] [User Authenticator #1/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[19:45:40] [Server thread/INFO]: NotCarpeDM[/192.168.0.124:62002] logged in with entity id 56 at (-541.9784433802791, 65.0, -343.0510329747029)
+[19:45:40] [Server thread/INFO]: NotCarpeDM joined the game
+[19:46:36] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[19:46:36] [Server thread/INFO]: NotCarpeDM left the game
+[19:46:43] [Server thread/INFO]: Stopping the server
+[19:46:43] [Server thread/INFO]: Stopping server
+[19:46:43] [Server thread/INFO]: Saving players
+[19:46:43] [Server thread/INFO]: Saving worlds
+[19:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
+[19:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
+[19:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
+[19:46:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
+[19:46:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:46:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:46:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
