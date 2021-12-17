@@ -1,26 +1,21 @@
-[00:41:36] [Server thread/INFO]: NotCarpeDM has made the advancement [Voluntary Exile]
-[00:43:31] [Server thread/INFO]: NotCarpeDM was shot by Pillager
-[00:43:33] [Server thread/WARN]: NotCarpeDM moved too quickly! -36.94204709962287,-7.0,-21.996998766156764
-[00:45:55] [Server thread/INFO]: Villager bne['Farmer'/13557, l='ServerLevel[Laura Craft Server]', x=-575.41, y=64.00, z=-338.36] died, message: 'Farmer was slain by Vindicator'
-[00:46:42] [Server thread/INFO]: NotCarpeDM was slain by Vindicator
-[00:46:48] [Server thread/INFO]: NotCarpeDM was slain by Vindicator
-[00:46:55] [Server thread/INFO]: NotCarpeDM was slain by Vindicator
-[00:47:00] [Server thread/WARN]: Mismatch in destroy block pos: gh{x=0, y=0, z=0} gh{x=-550, y=65, z=-341}
-[00:48:17] [Server thread/INFO]: NotCarpeDM was slain by Vindicator
-[00:48:30] [Server thread/INFO]: NotCarpeDM was slain by Vindicator
-[00:48:32] [Server thread/WARN]: NotCarpeDM moved too quickly! -0.6849489080727835,-1.0,-28.5218747099035
-[00:52:20] [Server thread/INFO]: NotCarpeDM was blown up by Creeper
-[00:52:21] [Server thread/INFO]: Skipping update from removed player 'adj['NotCarpeDM'/58, l='ServerLevel[Laura Craft Server]', x=-550.30, y=66.30, z=-340.54, removed=KILLED]'
-[01:30:13] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
-[01:30:13] [Server thread/INFO]: NotCarpeDM left the game
-[01:30:20] [Server thread/INFO]: Stopping the server
-[01:30:20] [Server thread/INFO]: Stopping server
-[01:30:20] [Server thread/INFO]: Saving players
-[01:30:20] [Server thread/INFO]: Saving worlds
-[01:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
-[01:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
-[01:30:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
-[01:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
-[01:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:30:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:18:13] [Server thread/INFO]: Villager bne['Villager'/1017, l='ServerLevel[Laura Craft Server]', x=-520.60, y=57.25, z=-340.72] died, message: 'Villager was slain by Zombie'
+[00:37:22] [Server thread/INFO]: Villager bne['Fisherman'/1090, l='ServerLevel[Laura Craft Server]', x=-519.84, y=56.27, z=-339.30] died, message: 'Fisherman tried to swim in lava to escape Zombie'
+[00:38:53] [Server thread/INFO]: Villager bne['Farmer'/1534, l='ServerLevel[Laura Craft Server]', x=-524.30, y=64.00, z=-342.70] died, message: 'Farmer was slain by Zombie'
+[00:40:19] [Server thread/INFO]: Villager bne['Farmer'/1498, l='ServerLevel[Laura Craft Server]', x=-511.30, y=71.00, z=-323.81] died, message: 'Farmer was slain by Zombie'
+[00:45:06] [Server thread/INFO]: Summoned new Iron Golem
+[01:08:45] [Server thread/INFO]: Unknown item 'minecraft:boat'
+[01:08:45] [Server thread/INFO]: ...otcarpedm minecraft:boat<--[HERE]
+[01:09:41] [Server thread/INFO]: Summoned new Boat
+[01:28:13] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[01:28:13] [Server thread/INFO]: NotCarpeDM left the game
+[01:28:19] [Server thread/INFO]: Stopping the server
+[01:28:19] [Server thread/INFO]: Stopping server
+[01:28:19] [Server thread/INFO]: Saving players
+[01:28:19] [Server thread/INFO]: Saving worlds
+[01:28:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
+[01:28:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
+[01:28:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
+[01:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
+[01:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
