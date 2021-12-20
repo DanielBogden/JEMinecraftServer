@@ -1,21 +1,50 @@
-[00:18:13] [Server thread/INFO]: Villager bne['Villager'/1017, l='ServerLevel[Laura Craft Server]', x=-520.60, y=57.25, z=-340.72] died, message: 'Villager was slain by Zombie'
-[00:37:22] [Server thread/INFO]: Villager bne['Fisherman'/1090, l='ServerLevel[Laura Craft Server]', x=-519.84, y=56.27, z=-339.30] died, message: 'Fisherman tried to swim in lava to escape Zombie'
-[00:38:53] [Server thread/INFO]: Villager bne['Farmer'/1534, l='ServerLevel[Laura Craft Server]', x=-524.30, y=64.00, z=-342.70] died, message: 'Farmer was slain by Zombie'
-[00:40:19] [Server thread/INFO]: Villager bne['Farmer'/1498, l='ServerLevel[Laura Craft Server]', x=-511.30, y=71.00, z=-323.81] died, message: 'Farmer was slain by Zombie'
-[00:45:06] [Server thread/INFO]: Summoned new Iron Golem
-[01:08:45] [Server thread/INFO]: Unknown item 'minecraft:boat'
-[01:08:45] [Server thread/INFO]: ...otcarpedm minecraft:boat<--[HERE]
-[01:09:41] [Server thread/INFO]: Summoned new Boat
-[01:28:13] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
-[01:28:13] [Server thread/INFO]: NotCarpeDM left the game
-[01:28:19] [Server thread/INFO]: Stopping the server
-[01:28:19] [Server thread/INFO]: Stopping server
-[01:28:19] [Server thread/INFO]: Saving players
-[01:28:19] [Server thread/INFO]: Saving worlds
-[01:28:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
-[01:28:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
-[01:28:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
-[01:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
-[01:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:28:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:05:24] [Server thread/INFO]: FlamencoCoder fell from a high place
+[00:05:25] [Server thread/INFO]: Skipping update from removed player 'adj['FlamencoCoder'/84556, l='ServerLevel[Laura Craft Server]', x=-307.02, y=8.00, z=70.20, removed=KILLED]'
+[00:07:32] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[00:07:32] [Server thread/INFO]: FlamencoCoder left the game
+[00:09:04] [User Authenticator #17/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[00:09:04] [Server thread/INFO]: FlamencoCoder[/192.168.0.207:51914] logged in with entity id 88561 at (-301.1960542886887, 8.0, 69.64776442264628)
+[00:09:04] [Server thread/INFO]: FlamencoCoder joined the game
+[00:13:16] [Server thread/INFO]: FlamencoCoder was blown up by Creeper
+[00:19:53] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[00:19:53] [Server thread/INFO]: FlamencoCoder left the game
+[00:20:03] [User Authenticator #18/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[00:20:03] [Server thread/INFO]: FlamencoCoder[/192.168.0.207:51955] logged in with entity id 92435 at (-304.67337373246954, 20.0, 78.48400714361665)
+[00:20:03] [Server thread/INFO]: FlamencoCoder joined the game
+[00:31:39] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[00:31:39] [Server thread/INFO]: FlamencoCoder left the game
+[00:31:47] [User Authenticator #19/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[00:31:47] [Server thread/INFO]: FlamencoCoder[/192.168.0.207:51986] logged in with entity id 96334 at (-359.96326825764606, 66.0, -56.92500001192093)
+[00:31:47] [Server thread/INFO]: FlamencoCoder joined the game
+[00:37:31] [Server thread/INFO]: FlamencoCoder has made the advancement [Suit Up]
+[00:42:48] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[00:42:48] [Server thread/INFO]: FlamencoCoder left the game
+[00:42:58] [User Authenticator #20/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[00:42:58] [Server thread/INFO]: FlamencoCoder[/192.168.0.207:52013] logged in with entity id 100166 at (-361.7238045895933, 67.0, -32.02906561081805)
+[00:42:58] [Server thread/INFO]: FlamencoCoder joined the game
+[00:54:11] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[00:54:11] [Server thread/INFO]: FlamencoCoder left the game
+[00:54:25] [User Authenticator #21/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[00:54:25] [Server thread/INFO]: FlamencoCoder[/192.168.0.207:52048] logged in with entity id 104343 at (-362.2075865330779, 66.0, -49.07499998807907)
+[00:54:25] [Server thread/INFO]: FlamencoCoder joined the game
+[01:08:41] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[01:08:41] [Server thread/INFO]: FlamencoCoder left the game
+[01:11:50] [Server thread/INFO]: NotCarpeDM fell from a high place
+[01:11:51] [Server thread/INFO]: Skipping update from removed player 'adj['NotCarpeDM'/5923, l='ServerLevel[Laura Craft Server]', x=-452.04, y=1.00, z=-592.15, removed=KILLED]'
+[01:11:56] [Server thread/WARN]: NotCarpeDM moved too quickly! -96.46314948752865,64.0,247.64819917662874
+[01:11:56] [Server thread/WARN]: NotCarpeDM moved too quickly! -96.46314948752865,64.0,247.64819917662874
+[01:29:52] [Server thread/INFO]: NotCarpeDM was slain by Cave Spider
+[01:29:53] [Server thread/INFO]: Skipping update from removed player 'adj['NotCarpeDM'/5923, l='ServerLevel[Laura Craft Server]', x=-349.43, y=-39.00, z=-85.90, removed=KILLED]'
+[02:14:14] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[02:14:14] [Server thread/INFO]: NotCarpeDM left the game
+[02:14:22] [Server thread/INFO]: Stopping the server
+[02:14:22] [Server thread/INFO]: Stopping server
+[02:14:22] [Server thread/INFO]: Saving players
+[02:14:22] [Server thread/INFO]: Saving worlds
+[02:14:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
+[02:14:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
+[02:14:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
+[02:14:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
+[02:14:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:14:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:14:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
