@@ -1,0 +1,626 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 12/24/21, 10:42 PM
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at java.base@17.0.1/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base@17.0.1/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base@17.0.1/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base@17.0.1/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base@17.0.1/java.io.PrintStream.write(PrintStream.java:570)
+	at org.apache.logging.log4j.core.util.CloseShieldOutputStream.write(CloseShieldOutputStream.java:53)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:250)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:283)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:294)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:199)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:190)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:181)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:540)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:498)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:481)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:456)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161)
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2040)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1907)
+	at org.apache.logging.log4j.spi.AbstractLogger.warn(AbstractLogger.java:2794)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:670)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:270)
+	at net.minecraft.server.MinecraftServer$$Lambda$4352/0x000000080142a288.run(Unknown Source)
+	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@17.0.1/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base@17.0.1/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base@17.0.1/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base@17.0.1/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base@17.0.1/java.io.PrintStream.write(PrintStream.java:570)
+	at org.apache.logging.log4j.core.util.CloseShieldOutputStream.write(CloseShieldOutputStream.java:53)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:250)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:283)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flush(OutputStreamManager.java:294)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:199)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:190)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:181)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:540)
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:498)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:481)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:456)
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161)
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2040)
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1907)
+	at org.apache.logging.log4j.spi.AbstractLogger.warn(AbstractLogger.java:2794)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:670)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:270)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.1/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.1/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.1/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@52c15fe0
+	at java.base@17.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@52c15fe0
+	at java.base@17.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.1/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Attach Listener" daemon prio=5 Id=5 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=21 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=22 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@5c06abc8
+	at java.base@17.0.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@5c06abc8
+	at java.base@17.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.1/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"DestroyJavaVM" prio=5 Id=24 RUNNABLE
+
+
+"Worker-Bootstrap-2" daemon prio=5 Id=30 TIMED_WAITING on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Bootstrap-4" daemon prio=5 Id=32 WAITING on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Bootstrap-5" daemon prio=5 Id=33 WAITING on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Bootstrap-10" daemon prio=5 Id=38 WAITING on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Bootstrap-12" daemon prio=5 Id=40 WAITING on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Bootstrap-13" daemon prio=5 Id=41 WAITING on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@58393490
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Timer hack thread" daemon prio=5 Id=44 TIMED_WAITING
+	at java.base@17.0.1/java.lang.Thread.sleep(Native Method)
+	at ad$6.run(SourceFile:765)
+
+
+"Worker-Main-16" daemon prio=5 Id=45 WAITING on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-18" daemon prio=5 Id=47 WAITING on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-21" daemon prio=5 Id=50 WAITING on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Server thread" prio=8 Id=51 RUNNABLE
+	at java.base@17.0.1/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base@17.0.1/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base@17.0.1/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base@17.0.1/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	-  locked java.io.BufferedOutputStream@455dd3eb
+	at java.base@17.0.1/java.io.PrintStream.write(PrintStream.java:570)
+	-  locked java.io.PrintStream@2cec7863
+	at org.apache.logging.log4j.core.util.CloseShieldOutputStream.write(CloseShieldOutputStream.java:53)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.writeToDestination(OutputStreamManager.java:250)
+	-  locked org.apache.logging.log4j.core.appender.OutputStreamManager@3d6054da
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:283)
+	-  locked org.apache.logging.log4j.core.appender.OutputStreamManager@3d6054da
+	...
+
+
+"Server console handler" daemon prio=8 Id=53 RUNNABLE (in native)
+	at java.base@17.0.1/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.1/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.1/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.1/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@7d145ebc
+	at java.base@17.0.1/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270)
+	at java.base@17.0.1/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313)
+	at java.base@17.0.1/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+	-  locked java.io.InputStreamReader@56fd187e
+	at java.base@17.0.1/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	...
+
+
+"Netty Server IO #0" daemon prio=5 Id=54 RUNNABLE (in native)
+	at java.base@17.0.1/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@17.0.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+	at java.base@17.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@199d5da2
+	-  locked sun.nio.ch.WEPollSelectorImpl@26641ccf
+	at java.base@17.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	...
+
+
+"Worker-Main-24" daemon prio=5 Id=57 WAITING on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-25" daemon prio=5 Id=58 TIMED_WAITING on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-27" daemon prio=5 Id=60 WAITING on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@1d3ba1f3
+	at java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Server Watchdog" daemon prio=8 Id=68 RUNNABLE
+	at java.management@17.0.1/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at acm.run(SourceFile:49)
+	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Server IO #1" daemon prio=5 Id=69 RUNNABLE (in native)
+	at java.base@17.0.1/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@17.0.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+	at java.base@17.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@795a4701
+	-  locked sun.nio.ch.WEPollSelectorImpl@47da8ebc
+	at java.base@17.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	...
+
+
+"Netty Server IO #2" daemon prio=5 Id=70 RUNNABLE (in native)
+	at java.base@17.0.1/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@17.0.1/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+	at java.base@17.0.1/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@3459bba8
+	-  locked sun.nio.ch.WEPollSelectorImpl@32dd4b88
+	at java.base@17.0.1/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	...
+
+
+"Netty Server IO #3" daemon prio=5 Id=74 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #4" daemon prio=5 Id=75 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #5" daemon prio=5 Id=76 RUNNABLE
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory0(Native Method)
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory(Unsafe.java:742)
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory(Unsafe.java:753)
+	at java.base@17.0.1/java.nio.DirectByteBuffer.<init>(DirectByteBuffer.java:130)
+	at java.base@17.0.1/java.nio.ByteBuffer.allocateDirect(ByteBuffer.java:332)
+	at io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:632)
+	at io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:607)
+	at io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:202)
+	...
+
+
+"Netty Server IO #6" daemon prio=5 Id=77 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #7" daemon prio=5 Id=78 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #8" daemon prio=5 Id=79 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #9" daemon prio=5 Id=80 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #10" daemon prio=5 Id=81 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #11" daemon prio=5 Id=82 RUNNABLE
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory0(Native Method)
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory(Unsafe.java:742)
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory(Unsafe.java:753)
+	at java.base@17.0.1/java.nio.DirectByteBuffer.<init>(DirectByteBuffer.java:130)
+	at java.base@17.0.1/java.nio.ByteBuffer.allocateDirect(ByteBuffer.java:332)
+	at io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:632)
+	at io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:607)
+	at io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:202)
+	...
+
+
+"Netty Server IO #12" daemon prio=5 Id=83 RUNNABLE
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory0(Native Method)
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory(Unsafe.java:742)
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory(Unsafe.java:753)
+	at java.base@17.0.1/java.nio.DirectByteBuffer.<init>(DirectByteBuffer.java:130)
+	at java.base@17.0.1/java.nio.ByteBuffer.allocateDirect(ByteBuffer.java:332)
+	at io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:632)
+	at io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:607)
+	at io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:202)
+	...
+
+
+"Netty Server IO #13" daemon prio=5 Id=84 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #14" daemon prio=5 Id=85 RUNNABLE
+	at io.netty.util.internal.shaded.org.jctools.queues.ConcurrentCircularArrayQueueL0Pad.<init>(ConcurrentCircularArrayQueue.java:25)
+	at io.netty.util.internal.shaded.org.jctools.queues.ConcurrentCircularArrayQueue.<init>(ConcurrentCircularArrayQueue.java:56)
+	at io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL1Pad.<init>(MpscArrayQueue.java:41)
+	at io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField.<init>(MpscArrayQueue.java:54)
+	at io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueMidPad.<init>(MpscArrayQueue.java:90)
+	at io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField.<init>(MpscArrayQueue.java:104)
+	at io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueL2Pad.<init>(MpscArrayQueue.java:140)
+	at io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField.<init>(MpscArrayQueue.java:153)
+	...
+
+
+"Netty Server IO #15" daemon prio=5 Id=86 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #16" daemon prio=5 Id=87 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #17" daemon prio=5 Id=88 RUNNABLE
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory0(Native Method)
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory(Unsafe.java:742)
+	at java.base@17.0.1/jdk.internal.misc.Unsafe.setMemory(Unsafe.java:753)
+	at java.base@17.0.1/java.nio.DirectByteBuffer.<init>(DirectByteBuffer.java:130)
+	at java.base@17.0.1/java.nio.ByteBuffer.allocateDirect(ByteBuffer.java:332)
+	at io.netty.buffer.PoolArena$DirectArena.allocateDirect(PoolArena.java:632)
+	at io.netty.buffer.PoolArena$DirectArena.newChunk(PoolArena.java:607)
+	at io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:202)
+	...
+
+
+"Netty Server IO #18" daemon prio=5 Id=89 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #19" daemon prio=5 Id=90 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #20" daemon prio=5 Id=91 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #21" daemon prio=5 Id=92 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #22" daemon prio=5 Id=93 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+"Netty Server IO #23" daemon prio=5 Id=94 BLOCKED on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0 owned by "Netty Server IO #14" Id=85
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:509)
+	-  blocked on io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache@534dcef0
+	at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.initialValue(PooledByteBufAllocator.java:500)
+	at io.netty.util.concurrent.FastThreadLocal.initialize(FastThreadLocal.java:177)
+	at io.netty.util.concurrent.FastThreadLocal.get(FastThreadLocal.java:142)
+	at io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:390)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	at io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	at io.netty.buffer.AbstractByteBufAllocator.ioBuffer(AbstractByteBufAllocator.java:140)
+	...
+
+
+
+Stacktrace:
+	at acm.run(SourceFile:65)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 0, entities: 64,64,33,529,529,0,0 [minecraft:sheep:25,minecraft:chest_minecart:14,minecraft:chicken:8,minecraft:cow:6,minecraft:pig:3], block_entities: 24 [minecraft:mob_spawner:14,minecraft:furnace:7,minecraft:hopper:3], block_ticks: 89, fluid_ticks: 194, chunk_source: Chunks[S] W: 2209 E: 64,64,33,529,529,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18
+	Minecraft Version ID: 1.18
+	Operating System: Windows Server 2019 (amd64) version 10.0
+	Java Version: 17.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 6411507384 bytes (6114 MiB) / 8589934592 bytes (8192 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E5-2650L 0 @ 1.80GHz
+	Identifier: Intel64 Family 6 Model 45 Stepping 7
+	Microarchitecture: Sandy Bridge (Server)
+	Frequency (GHz): 1.80
+	Number of physical packages: 8
+	Number of physical CPUs: 16
+	Number of logical CPUs: 16
+	Graphics card #0 name: VMware SVGA 3D
+	Graphics card #0 vendor: VMware, Inc. (0x15ad)
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: 0x0405
+	Graphics card #0 versionInfo: DriverVersion=8.16.7.8
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: DRAM
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 0.00
+	Memory slot #1 type: DRAM
+	Virtual memory max (MB): 28159.02
+	Virtual memory used (MB): 12240.28
+	Swap memory total (MB): 3584.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xmx8g -Xms8g
+	Server Running: true
+	Player Count: 0 / 20; []
+	Data Packs: vanilla
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)

@@ -1,1 +1,1 @@
-java -Xmx1g -Xms1g -jar server.jar nogui
+java -Xmx8g -Xms8g -jar server.jar nogui
