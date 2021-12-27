@@ -1,16 +1,104 @@
-[00:02:59] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
-[00:03:29] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
-[00:03:29] [Server thread/INFO]: NotCarpeDM left the game
-[01:44:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[01:44:16] [Server thread/INFO]: STOP<--[HERE]
-[01:44:18] [Server thread/INFO]: Stopping the server
-[01:44:18] [Server thread/INFO]: Stopping server
-[01:44:18] [Server thread/INFO]: Saving players
-[01:44:18] [Server thread/INFO]: Saving worlds
-[01:44:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
-[01:44:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
-[01:44:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
-[01:44:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
-[01:44:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:44:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:44:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:27:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:27:01] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:27:01] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:27:01] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:27:01] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:27:01] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:27:01] [ServerMain/INFO]: Reloading ResourceManager: Default
+[11:27:04] [Worker-Main-19/INFO]: Loaded 7 recipes
+[11:27:05] [Worker-Main-19/INFO]: Loaded 1141 advancements
+[11:27:09] [Server thread/INFO]: Starting minecraft server version 1.18
+[11:27:09] [Server thread/INFO]: Loading properties
+[11:27:09] [Server thread/INFO]: Default game type: SURVIVAL
+[11:27:09] [Server thread/INFO]: Generating keypair
+[11:27:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:27:10] [Server thread/INFO]: Using default channel type
+[11:27:10] [Server thread/INFO]: Preparing level "Laura Craft Server"
+[11:27:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:27:12] [Worker-Main-27/INFO]: Preparing spawn area: 0%
+[11:27:12] [Worker-Main-27/INFO]: Preparing spawn area: 0%
+[11:27:12] [Worker-Main-28/INFO]: Preparing spawn area: 0%
+[11:27:12] [Worker-Main-27/INFO]: Preparing spawn area: 0%
+[11:27:13] [Worker-Main-29/INFO]: Preparing spawn area: 0%
+[11:27:13] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[11:27:13] [Worker-Main-25/INFO]: Preparing spawn area: 0%
+[11:27:14] [Worker-Main-25/INFO]: Preparing spawn area: 0%
+[11:27:14] [Worker-Main-32/INFO]: Preparing spawn area: 0%
+[11:27:15] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[11:27:15] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[11:27:22] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[11:27:23] [Worker-Main-32/INFO]: Preparing spawn area: 3%
+[11:27:23] [Worker-Main-32/INFO]: Preparing spawn area: 9%
+[11:27:24] [Worker-Main-25/INFO]: Preparing spawn area: 19%
+[11:27:24] [Worker-Main-26/INFO]: Preparing spawn area: 34%
+[11:27:25] [Worker-Main-32/INFO]: Preparing spawn area: 36%
+[11:27:25] [Worker-Main-27/INFO]: Preparing spawn area: 69%
+[11:27:26] [Worker-Main-32/INFO]: Preparing spawn area: 82%
+[11:27:26] [Worker-Main-16/INFO]: Preparing spawn area: 84%
+[11:27:27] [Server thread/INFO]: Time elapsed: 16303 ms
+[11:27:27] [Server thread/INFO]: Done (16.592s)! For help, type "help"
+[11:57:35] [User Authenticator #1/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[11:57:36] [Server thread/INFO]: FlamencoCoder[/76.178.138.89:60221] logged in with entity id 195 at (-312.1526916800896, 70.0, -62.56267797577468)
+[11:57:36] [Server thread/INFO]: FlamencoCoder joined the game
+[11:57:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2383ms or 47 ticks behind
+[12:18:32] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[12:18:32] [Server thread/INFO]: FlamencoCoder left the game
+[13:03:20] [User Authenticator #2/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[13:03:20] [Server thread/INFO]: NotCarpeDM[/76.178.138.89:62421] logged in with entity id 2881 at (-543.2798039043066, 65.0, -341.3449722687213)
+[13:03:20] [Server thread/INFO]: NotCarpeDM joined the game
+[13:14:03] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[13:23:43] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[13:24:26] [User Authenticator #3/INFO]: UUID of player FlamencoCoder is 01486bb2-7646-4a2c-a766-647ae9ebbf76
+[13:24:26] [Server thread/INFO]: FlamencoCoder[/76.178.138.89:61045] logged in with entity id 6414 at (-317.53626628716734, 64.0, -35.15515394357061)
+[13:24:26] [Server thread/INFO]: FlamencoCoder joined the game
+[13:33:27] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[13:43:10] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[13:53:09] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[14:00:36] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[14:00:36] [Server thread/INFO]: NotCarpeDM left the game
+[14:01:44] [User Authenticator #4/INFO]: UUID of player NotCarpeDM is 408e6b84-8760-46ed-8541-2fcc770e2984
+[14:01:44] [Server thread/INFO]: NotCarpeDM[/76.178.138.89:62736] logged in with entity id 15319 at (-317.07600120681724, 63.0, -16.668710862811068)
+[14:01:44] [Server thread/INFO]: NotCarpeDM joined the game
+[14:02:41] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[14:12:27] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[14:14:29] [Server thread/INFO]: FlamencoCoder lost connection: Disconnected
+[14:14:29] [Server thread/INFO]: FlamencoCoder left the game
+[14:15:29] [User Authenticator #5/INFO]: UUID of player hullt333 is c8d146fb-512e-4fb8-bac4-f5bdefba09d3
+[14:15:30] [Server thread/INFO]: hullt333[/76.178.138.89:57739] logged in with entity id 19294 at (-295.5, 69.0, -53.5)
+[14:15:30] [Server thread/INFO]: hullt333 joined the game
+[14:21:15] [Server thread/INFO]: hullt333 has made the advancement [Stone Age]
+[14:22:35] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[14:23:27] [Server thread/INFO]: hullt333 has made the advancement [Getting an Upgrade]
+[14:28:05] [Server thread/INFO]: [NotCarpeDM: Gave 1 [Compass] to hullt333]
+[14:28:11] [Server thread/INFO]: [NotCarpeDM: Gave 24 [Paper] to hullt333]
+[14:32:27] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[14:41:59] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[14:49:46] [Server thread/INFO]: hullt333 lost connection: Disconnected
+[14:49:46] [Server thread/INFO]: hullt333 left the game
+[14:51:28] [Server thread/INFO]: [NotCarpeDM: Set the time to 1000]
+[14:51:49] [Server thread/INFO]: NotCarpeDM lost connection: Disconnected
+[14:51:49] [Server thread/INFO]: NotCarpeDM left the game
+[16:20:00] [Server thread/INFO]: Stopping the server
+[16:20:00] [Server thread/INFO]: Stopping server
+[16:20:00] [Server thread/INFO]: Saving players
+[16:20:00] [Server thread/INFO]: Saving worlds
+[16:20:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:overworld
+[16:20:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_nether
+[16:20:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Laura Craft Server]'/minecraft:the_end
+[16:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (Laura Craft Server): All chunks are saved
+[16:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
