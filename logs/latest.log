@@ -1,5 +1,22 @@
-[08:07:10] [User Authenticator #4/INFO]: UUID of player AnalogAddict is 0d4682d5-92ef-44ce-9ee6-39431bab0ddd
-[08:07:10] [Server thread/INFO]: AnalogAddict[/102.129.145.242:38581] logged in with entity id 272 at (-285.5, 69.0, -56.5)
-[08:07:10] [Server thread/INFO]: AnalogAddict joined the game
-[08:07:14] [Server thread/INFO]: AnalogAddict lost connection: Disconnected
-[08:07:14] [Server thread/INFO]: AnalogAddict left the game
+[01:13:13] [ServerMain/INFO]: Building unoptimized datafixer
+[01:13:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:13:15] [ServerMain/INFO]: Loaded 7 recipes
+[01:13:15] [ServerMain/INFO]: Loaded 1179 advancements
+[01:13:15] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[01:13:15] [Server thread/INFO]: Loading properties
+[01:13:15] [Server thread/INFO]: Default game type: SURVIVAL
+[01:13:15] [Server thread/INFO]: Generating keypair
+[01:13:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:13:15] [Server thread/INFO]: Using epoll channel type
+[01:13:15] [Server thread/INFO]: Preparing level "Laura Craft Server"
+[01:13:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:13:18] [Worker-Main-22/INFO]: Preparing spawn area: 0%
+[01:13:18] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[01:13:18] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:13:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:13:18] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[01:13:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[01:13:19] [Worker-Main-20/INFO]: Preparing spawn area: 15%
+[01:13:19] [Worker-Main-16/INFO]: Preparing spawn area: 99%
+[01:13:19] [Server thread/INFO]: Time elapsed: 3504 ms
+[01:13:19] [Server thread/INFO]: Done (4.001s)! For help, type "help"
